@@ -46,14 +46,14 @@ elif page == 'Early Years':
     myImage = Image.open("Ayah3.jpg")  
     st.image(myImage)
 
-elif page == 'Early Teens'
+elif page == 'Early Teens':
 
     myImage = Image.open("Ayah4.jpg")  
     st.image(myImage)
     myImage = Image.open("Ayah3.jpg")  
     st.image(myImage)
 
-elif page == 'Late Teens'
+elif page == 'Late Teens':
 
     myImage = Image.open("Ayah5.jpg")  
     st.image(myImage)
