@@ -22,8 +22,30 @@ if page == "Intro page":
 
     st.markdown("On your birthday, I hope you take a moment to reflect on all the wonderful experiences you've had and the amazing adventures that lie ahead. May this year be filled with laughter, love, and endless opportunities for you to chase your dreams and achieve greatness.")
 
-    st.markdown("Never forget how much you are loved and cherished, not just today, but every single day. You are truly a gift, and I'm 
-
-  
-
+    st.markdown("Never forget how much you are loved and cherished, not just today, but every single day. You are truly a gift, and I'm grateful for the privilege of being your parent. Happy Birthday, Ayah! Here's to another incredible year ahead! 🎂🎈")
+    myImage = Image.open("Ayah0.jpg")  
+    st.image(myImage)
+### #######################################
     
+elif page == 'Early Years':
+
+    myImage = Image.open("Ayah2.jpg")  
+    st.image(myImage)
+    myImage = Image.open("Ayah3.jpg")  
+    st.image(myImage)
+
+elif page == 'Early Teens':
+
+    myImage = Image.open("Ayah4.jpg")  
+    st.image(myImage)
+    myImage = Image.open("Ayah3.jpg")  
+    st.image(myImage)
+
+elif page == 'Late Teens':
+
+    myImage = Image.open("Ayah5.jpg")  
+    st.image(myImage)
+    myImage = Image.open("Ayah6.jpg")  
+    st.image(myImage)
+    myImage = Image.open("Ayah7.jpg")  
+    st.image(myImage)
