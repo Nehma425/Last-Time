@@ -12,7 +12,7 @@ from PIL import Image
 
 
 # Set page configuration
-st.set_page_config(page_title= Happy Birthday Ayah', layout='wide')
+st.set_page_config(page_title= 'Happy Birthday Ayah', layout='wide')
 
 # Center-align the title using HTML
 st.markdown("""
