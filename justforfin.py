@@ -36,14 +36,14 @@ page = st.sidebar.selectbox("Aspect Selector", ["Intro page", "Early Years", "Ea
 # Intro page
 if page == "Intro page":
     st.markdown("Happy Birthday, Ayah!")
-    myImage = Image.open("Ayah1.png")  
+    myImage = Image.open("Ayah1.jpg")  
     st.image(myImage)
   ### #######################################
     
 elif page == 'Early Years':
 
-    myImage = Image.open("Ayah2.png")  
+    myImage = Image.open("Ayah2.jpg")  
     st.image(myImage)
-    myImage = Image.open("Ayah3.png")  
+    myImage = Image.open("Ayah3.jpg")  
     st.image(myImage)
 
