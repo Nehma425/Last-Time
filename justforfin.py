@@ -29,7 +29,7 @@ if page == "Intro page":
     
 elif page == 'Early Years':
 
-     myImage = Image.open("ayah9.JPG")  
+    myImage = Image.open("ayah9.JPG")  
     st.image(myImage)
     myImage = Image.open("Ayah2.jpg")  
     st.image(myImage)
