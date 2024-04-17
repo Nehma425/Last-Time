@@ -38,9 +38,10 @@ elif page == 'Early Teens':
 
     myImage = Image.open("Ayah4.jpg")  
     st.image(myImage)
-    myImage = Image.open("Ayah3.jpg")  
+    myImage = Image.open("ayahmom.JPG")  
     st.image(myImage)
-
+    myImage = Image.open("ayahbro.JPG")  
+    st.image(myImage)
 elif page == 'Late Teens':
 
     myImage = Image.open("Ayah5.jpg")  
