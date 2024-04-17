@@ -29,15 +29,18 @@ if page == "Intro page":
     
 elif page == 'Early Years':
 
+     myImage = Image.open("ayah9.JPG")  
+    st.image(myImage)
     myImage = Image.open("Ayah2.jpg")  
     st.image(myImage)
     myImage = Image.open("Ayah3.jpg")  
     st.image(myImage)
+    myImage = Image.open("Ayah4.jpg")  
+    st.image(myImage)
 
 elif page == 'Early Teens':
 
-    myImage = Image.open("Ayah4.jpg")  
-    st.image(myImage)
+   
     myImage = Image.open("ayahmom.JPG")  
     st.image(myImage)
     myImage = Image.open("ayaybro.JPG")  
