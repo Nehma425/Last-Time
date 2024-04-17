@@ -28,8 +28,7 @@ if page == "Intro page":
 ### #######################################
     
 elif page == 'Early Years':
-
-    myImage = Image.open("ayah9.JPG")  
+st.markdown("Looking back on your early years, Ayah, I'm filled with nostalgia and gratitude for all the precious moments we've shared. From your first steps to your first words, every milestone has been a joy to witness. As you celebrate your 19th birthday, know that you're surrounded by love and support every step of the way. Happy Birthday, Ayah! 🎂🎉")
     st.image(myImage)
     myImage = Image.open("Ayah2.jpg")  
     st.image(myImage)
@@ -39,14 +38,16 @@ elif page == 'Early Years':
     st.image(myImage)
 
 elif page == 'Early Teens':
-
-   
+st.markdown("As you enter your early teens, Ayah, I want you to know how much you've grown and matured over the years. Your journey from childhood to adolescence has been filled with remarkable milestones and achievements. I'm so proud of the person you're becoming, and I can't wait to see what the future holds for you. Happy Birthday, Ayah! 🎂🌟")
+    myImage = Image.open("ayah8.JPG")  
+    myImage = Image.open("ayah9.JPG")  
+    st.image(myImage)
     myImage = Image.open("ayahmom.JPG")  
     st.image(myImage)
     myImage = Image.open("ayaybro.JPG")  
     st.image(myImage)
 elif page == 'Late Teens':
-
+st.markdown("In your late teens now, Ayah, you stand on the brink of adulthood, ready to embark on new adventures and challenges. As you navigate this exciting phase of your life, remember to stay true to yourself and follow your heart. Your resilience and determination inspire us all, and I have no doubt that you'll achieve great things. Happy Birthday, Ayah! 🎈🌟")
     myImage = Image.open("Ayah5.jpg")  
     st.image(myImage)
     myImage = Image.open("Ayah6.jpg")  
