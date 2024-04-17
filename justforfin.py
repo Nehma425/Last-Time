@@ -39,7 +39,7 @@ elif page == 'Early Years':
 
 elif page == 'Early Teens':
     st.markdown("As you enter your early teens, Ayah, I want you to know how much you've grown and matured over the years. Your journey from childhood to adolescence has been filled with remarkable milestones and achievements. I'm so proud of the person you're becoming, and I can't wait to see what the future holds for you. Happy Birthday, Ayah! 🎂🌟")
-    myImage = Image.open("Ayah8.JPG")  
+    myImage = Image.open("Ayah8.jpg")  
     myImage = Image.open("ayah9.JPG")  
     st.image(myImage)
     myImage = Image.open("ayahmom.JPG")  
