@@ -29,6 +29,7 @@ if page == "Intro page":
     
 elif page == 'Early Years':
     st.markdown("Looking back on your early years, Ayah, I'm filled with nostalgia and gratitude for all the precious moments we've shared. From your first steps to your first words, every milestone has been a joy to witness. As you celebrate your 19th birthday, know that you're surrounded by love and support every step of the way. Happy Birthday, Ayah! 🎂🎉")
+    myImage = Image.opem("Ayah1.jpg")
     st.image(myImage)
     myImage = Image.open("Ayah2.jpg")  
     st.image(myImage)
